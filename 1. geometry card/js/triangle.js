@@ -7,4 +7,7 @@ function triangle(){
     const inputHeight = document.getElementById('triangle-height').value;
     const height = parseFloat(inputHeight);
     console.log(height);
+    //Final Calculation of triangle
+    const result =0.5 *base *height;
+    console.log("Triangle value is :",result);
 }
